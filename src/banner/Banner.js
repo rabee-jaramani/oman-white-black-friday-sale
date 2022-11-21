@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import banner_img from './banner_img.png';
-import mobile_img from './mobile_img.png';
+import banner_wide from './banner_wide.jpg';
+import mobile_mobile from './banner_mobile.jpg';
 export default function Banner() {
   const [bg, setBg] = useState();
 
   useEffect(() => {
     if (window.innerWidth < 800) {
-      setBg(mobile_img);
+      setBg(mobile_mobile);
     } else {
-      setBg(banner_img);
+      setBg(banner_wide);
     }
   }, []);
   return (

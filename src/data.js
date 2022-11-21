@@ -100,8 +100,8 @@ export const data_list = [
     id: 10,
     brand: 'CHARLES & KEITH',
     logo: charleskeith,
-    offer1: '25 To 40% Off',
-    offer2: 'On Selected',
+    offer1: 'Flat 40% Off',
+    offer2: 'On Selected Styles',
     stores: [
       'City Center Muscat',
       'Mall of Oman',
@@ -134,8 +134,8 @@ export const data_list = [
     id: 13,
     brand: 'NATURALISER',
     logo: nat,
-    offer1: 'Sale 25 - 50% Off',
-    offer2: '',
+    offer1: 'Flat 40% Off',
+    offer2: 'On Selected Styles',
     stores: ['Muscat Grand Mall'],
   },
   {

@@ -23,6 +23,7 @@ import rituals from './body/logos/rituals.svg';
 import newyorker from './body/logos/newyorker.svg';
 import rbkids from './body/logos/rbkids.svg';
 import adidas from './body/logos/adidas.png';
+import tcp from './body/logos/tcp.svg';
 
 export const data_list = [
   {
@@ -258,5 +259,13 @@ export const data_list = [
     offer1: 'Flat 40% Off',
     offer2: 'On Selected',
     stores: ['Mall of Oman'],
+  },  {
+    id: 27,
+    brand: 'TCP',
+    logo: tcp,
+    offer1: 'Flat 50% Off',
+    offer2: 'On Everything',
+    stores: ['Muscat Grand Mall',
+    'Mall of Oman'],
   },
 ];
